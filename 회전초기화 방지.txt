@@ -1,0 +1,5 @@
+   https://royzero.tistory.com/31
+
+xml 엑티브 안쪽
+
+android:configChanges="orientation|keyboardHidden|screenSize"
