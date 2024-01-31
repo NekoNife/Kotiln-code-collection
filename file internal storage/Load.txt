@@ -1,0 +1,16 @@
+    private fun pointget(): Int {
+
+            var fileread = FileInputStream("${filesDir}/point/freepoint.txt")
+            var i2 = 0
+            try {
+                i2 = fileread.read()
+                fileread.close()
+
+            } catch (e: Exception) {
+                null
+            }
+
+            return i2
+
+
+    }

@@ -1,0 +1,11 @@
+    val path3 = File(filesDir, "point") 
+val file4 = File(path3, "freepoint.txt")
+        if (file4.exists() != true) {
+            var fileWriter4 = FileOutputStream("${filesDir}/point/freepoint.txt", false)
+            try {
+                fileWriter4.write(0)
+                fileWriter4.close()
+//            Toast.makeText(this, file.absolutePath, Toast.LENGTH_LONG).show()
+            } catch (e: Exception) {
+            }
+}

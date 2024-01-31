@@ -1,5 +1,0 @@
- android:debuggable="false"
-
-
-구역
- <application

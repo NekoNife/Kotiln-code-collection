@@ -1,0 +1,3 @@
+https://hydroponicglass.tistory.com/323
+위젯.setVisibility(View.INVISIBLE)
+위젯.setVisibility(View.VISIBLE)
